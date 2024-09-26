@@ -58,9 +58,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: process.env.NODE_ENV === 'production'
-        ? '/robotica-app/'
-        : '/',
+      publicPath: '/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
