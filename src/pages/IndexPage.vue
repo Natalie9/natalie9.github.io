@@ -1,11 +1,6 @@
 <template>
   <q-page class="row items-center justify-evenly">
-    <example-component
-      title="Example component"
-      active
-      :todos="todos"
-      :meta="meta"
-    ></example-component>
+   <h1><router-link to="/map">Ir para o mapa</router-link>  </h1>
   </q-page>
 </template>
 

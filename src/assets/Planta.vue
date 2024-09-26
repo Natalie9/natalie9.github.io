@@ -202,7 +202,7 @@ const svgPaths = ref({
   "svg-stands": {
     id: "svg-stands",
     d: "M358.893806,338.95119v79.649499L534.5,418.600688v-79.649494l-175.606194-.000004Z",
-    fill: "#82d7f1",
+    fill: "#f182e8",
     stroke: "black",
     strokeWidth: 2.138,
     text: 'Stands'
