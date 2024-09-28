@@ -1,5 +1,8 @@
 <template>
   <q-layout view="lHh Lpr lFf">
+
+
+
     <q-header elevated>
       <q-toolbar>
         <q-btn
@@ -41,6 +44,8 @@
     </q-drawer>
 
     <q-page-container>
+      <iframe id="online-alarm-kur-iframe" src="https://embed-countdown.onlinealarmkur.com/pt/#2024-11-09T00:00:00@America%2FSao_Paulo" width="360" height="80" style="display: block; margin: 0px auto; border: 0px;"></iframe>
+
       <router-view />
     </q-page-container>
   </q-layout>
