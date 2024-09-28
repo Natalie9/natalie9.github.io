@@ -1,6 +1,9 @@
 <template>
+  <iframe id="online-alarm-kur-iframe" src="https://embed-countdown.onlinealarmkur.com/pt/#2024-11-11T00:00:00@America%2FSao_Paulo" width="360" height="80" style="display: block; margin: 0px auto; border: 0px;"></iframe>
+
   <section style="display: flex">
-  <svg id="svg-wrapper"  viewBox="0 0 1069 797" shape-rendering="geometricPrecision"
+
+    <svg id="svg-wrapper"  viewBox="0 0 1069 797" shape-rendering="geometricPrecision"
        text-rendering="geometricPrecision">
 
     <path troke-linejoin="round" v-for="path in Object.values(svgPaths)" :key="path.id" :id="path.id" :d="path.d"  :opacity="path.opacity"
